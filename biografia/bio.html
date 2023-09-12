@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,400;0,500;0,600;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <title>Biografia | MDG Música Urbana</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: aliceblue;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        font-family: "Barlow", sans-serif;
+        padding: 20px;
+      }
+
+      .bio_menu {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 1.5rem;
+      }
+
+      .bio_menu_links {
+        text-decoration: none;
+        margin-left: 30px;
+        margin-top: 40px;
+        padding: 5px;
+        color: black;
+      }
+
+      .bio_menu_links:hover {
+        background-color: gray;
+        color: aliceblue;
+        border-radius: 5px;
+        transition: 0.5s;
+      }
+
+      img {
+        border-radius: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        margin-bottom: 15px;
+        color: rgb(14, 13, 13);
+        text-shadow: 1px 1px 30px;
+      }
+
+      p {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-bottom: 5px;
+      }
+
+      ul {
+        margin-top: 10px;
+        list-style: none;
+      }
+
+      li {
+        font-size: 1.2rem;
+        margin-bottom: 2px;
+      }
+
+      footer {
+        max-width: 1200px;
+        margin-top: 40px;
+      }
+
+      .links {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        padding: 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+      }
+
+      .rodape_links {
+        color: aliceblue;
+        text-decoration: none;
+      }
+
+      .rodape_links:hover {
+        scale: 1.2;
+        transition: 0.2s;
+      }
+      .footer_msg {
+        display: flex;
+        justify-content: center;
+        letter-spacing: 3px;
+        font-size: larger;
+        background-color: #d3d9df;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+       /********RESPONSIVIDADE*************/
+
+      @media(max-width:620px) {
+        
+        .bio_menu {
+          display: flex;
+          flex-direction: column;
+          font-size: 2rem;
+          align-items:center;
+        }
+
+        
+        h1 {
+          font-size: 2.5rem;
+          text-align: center;
+          
+        }
+        p,li{
+          font-size: 1.5rem;
+        }
+
+               
+        .footer_msg {
+          display: none;
+        }
+
+        .links {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          font-size: 2rem;
+          align-items: center;
+          
+        }
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="bio_menu">
+        <a class="bio_menu_links" href="/index.html">Home</a>
+        <a class="bio_menu_links" href="/ouvir/ouvir.html">Ouvir</a>
+        <a class="bio_menu_links" href="/videos/videos.html">Vídeos</a>
+        <a class="bio_menu_links" href="/contato/contato.html">Contato</a>
+      </div>
+
+      <img src="/imagens/img_bio.jpg" alt="" />
+
+      <h1>Biografia</h1>
+
+      <p>
+        Tendo o reggae como espinha dorsal, a banda também conta com influências
+        do rock e do pop. As composições ficam a cargo do vocalista Ricardo
+        Conceição, nascido e criado no bairro Monte Cristo, na parte continental
+        de Florianópolis, onde a banda ensaiou seus primeiros acordes. Daí
+        surgiu o nome Menino do Gueto (MDG), para dar referência ao local de
+        origem. Contudo, com o decorrer do tempo e o amadurecimento do trabalho,
+        a banda foi absorvendo, de maneira totalmente natural, a influência cada
+        vez mais forte do pop e do rock. E devido a esta abrangência de estilos,
+        em 2017, passou a utilizar em todas as suas plataformas o nome MDG
+        Música Urbana.
+      </p>
+      <p>
+        O lançamento oficial da banda foi em agosto de 2010 quando pisou pela
+        primeira vez no palco da concha acústica, na UFSC, para uma apresentação
+        no Projeto 12:30, em 25/08/2010.
+      </p>
+
+      <p>
+        Atualmente a <b> MDG Música Urbana </b> conta com cinco integrantes:
+      </p>
+
+      <ul>
+        <li>Vocal: <b>Ricardo Conceição</b></li>
+        <li>Guitarra: <b>Rodrigo Soares</b></li>
+        <li>Teclado: <b>Aldjan David</b></li>
+        <li>Baixo: <b>Diego Leonardo</b></li>
+        <li>Bateria: <b>Jeferson Rodrigues</b></li>
+      </ul>
+      <footer class="rodape">
+        <span class="footer_msg">_siga_mdg_música_urbana_nas_redes_</span>
+        <div class="links">
+          <a class="rodape_links" href="https://www.facebook.com/mdgmusicaurbana/" target="_blank">Facebook</a>
+          <a class="rodape_links" href="https://www.instagram.com/mdgmusicaurbana/" target="_blank">Instagram</a>
+          <a class="rodape_links" href="https://www.youtube.com/@mdgmusicaurbana3749/videos" target="_blank">Youtube</a>
+          <a class="rodape_links" href="https://open.spotify.com/intl-pt/artist/7gMTQn9SXZdj3dhBbadn7M" target="_blank">Spotify</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
